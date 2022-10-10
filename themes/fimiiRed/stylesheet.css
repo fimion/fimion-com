@@ -1,0 +1,283 @@
+<?php
+header("Content-type: text/css");
+
+   $fimii_fore="#000000";
+   $fimii_back="#FFFFFF";
+   $fimii_redcolor="#CC0000";
+?>
+body 
+{
+	margin:0px 150px;
+	background:<?php print $fimii_back; ?>;
+	color:<?php print $fimii_fore; ?>;
+}
+
+a{ color:<?php print $fimii_fore; ?>; text-decoration:underline; }
+a:link{ color:<?php print $fimii_fore; ?>; text-decoration:underline;  }
+a:visited{ color:<?php print $fimii_fore; ?>; text-decoration:underline; }
+a:active{ color:<?php print $fimii_fore; ?>; text-decoration:underline;}
+a:hover{ color:<?php print $fimii_fore; ?>;text-decoration:underline;}
+
+a.external,
+a.external:link,
+a.external:visited,
+a.external:hover,
+a.external:active
+{cursor: url(images/excur.cur),crosshair;}
+
+a.sideext,
+a.sideext:link,
+a.sideext:visited,
+a.sideext:hover,
+a.sideext:active
+{
+	text-decoration:none;
+	cursor: url(images/excur.cur),crosshair;
+}
+
+.entryNav
+{
+	text-align:center;
+}
+
+h1, h2, h3 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner 
+{
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_fore; ?>;
+	font-size:x-large;
+	font-weight:normal;
+	text-align: center;
+	/*border-bottom:1px solid <?php print $fimii_fore; ?>;
+	border-top:1px solid <?php print $fimii_fore; ?>;*/
+	background:<?php print $fimii_redcolor; ?>;
+	/*padding:15px;*/
+	text-transform:uppercase;
+	letter-spacing:.2em;
+}
+#banner a,
+#banner a:link,
+#banner a:visited,
+#banner a:active
+{
+	font-family:verdana, arial, sans-serif;
+	font-size: x-large;
+	color: <?php print $fimii_fore; ?>;
+	text-decoration: none;
+}
+#banner a:hover
+{
+	font-family:verdana, arial, sans-serif;
+	font-size: x-large;
+	color: <?php print $fimii_back; ?>;
+	text-decoration: none;
+}
+.banlink
+.banlink a,
+.banlink a:link,
+.banlink a:visited,
+.banlink a:active,
+.banlink a:hover
+{
+	font-family:verdana, arial, sans-serif;
+	font-size: x-large;
+	color:<?php print $fimii_fore; ?>;
+	text-decoration: none;
+}
+.description 
+{
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_fore; ?>;
+	font-size:x-small;
+	font-weight:bold;
+	background:<?php print $fimii_back; ?>;
+	text-transform:none;
+	letter-spacing:normal;
+	text-align: center;
+}
+#content 
+{
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_back; ?>;
+	/*float:left;*/
+	border:2px solid <?php print $fimii_fore; ?>;
+	text-align:center;
+}
+.big
+{
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_back; ?>;
+	margin: 0px;
+}
+#Navbar 
+{
+	/*float:left;*/
+	margin-top: 20px;
+	background:<?php print $fimii_back; ?>;
+	margin-left:5px;
+	margin-bottom:20px;
+	/*width: 200px;*/
+	text-align: center;
+}
+.linkbar
+{
+	/*float:left;*/
+	margin-top: 20px;
+	background:<?php print $fimii_back; ?>;
+	text-align: center;
+}
+.linkborder
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border:2px solid <?php print $fimii_fore; ?>;
+	background-color:#FFFFFF;
+}
+.blog
+{
+	padding:15px;
+	border:2px solid <?php print $fimii_fore; ?>;
+}
+.blogbody 
+{
+	/*float:left;*/
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_fore; ?>;
+	font-size:medium;
+	font-weight:normal;
+	background:<?php print $fimii_back; ?>;
+	line-height:140%;
+	margin: 10px;
+	padding-top:10px;
+	/*padding-right:10px;
+	padding-left:10px;*/
+	text-align:left;
+}
+.title 
+{
+	font-family:verdana, arial, sans-serif;
+	font-size:medium;
+	color:<?php print $fimii_fore; ?>;
+	/*border: 2px solid <?php print $fimii_fore; ?>;*/
+	background:<?php print $fimii_redcolor; ?>;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:bold;
+	text-align:center;
+	width: <?php print $fimii_content; ?>px;
+	}
+.menu 
+{
+	margin-bottom:15px;
+	background:<?php print $fimii_back; ?>;
+}
+.date 
+{
+	font-family:verdana, arial, sans-serif;
+	font-size:small;
+	color:<?php print $fimii_back; ?>;
+	border: 2px solid <?php print $fimii_fore; ?>;
+	background:<?php print $fimii_fore; ?>;
+	padding:5px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+.side 
+{
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_redcolor; ?>;
+	font-size:x-small;
+	font-weight:normal;
+	line-height:140%;
+	width: 196px;
+	text-align: center;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+a.side,
+a.side:link,
+a.side:visited,
+a.side:active,
+a.side:hover
+{text-decoration:none;}
+.randside 
+{
+	font-family:verdana, arial, sans-serif;
+	color:<?php print $fimii_fore; ?>;
+	font-size:x-small;
+	font-weight:normal;
+	line-height:140%;
+	width: 196px;
+	text-align: center;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+.sidetitle 
+{
+	font-family:verdana, arial, sans-serif;
+	font-size:medium;
+	color:<?php print $fimii_fore; ?>;
+	/*border: 2px solid <?php print $fimii_fore; ?>;*/
+	background:<?php print $fimii_redcolor; ?>;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-bottom:10px;
+	font-weight:bold;
+	text-align:center;
+ 
+width:196px;
+}
+.subContent
+{
+	border: 2px solid <?php print $fimii_fore; ?>;
+	background:<?php print $fimii_back; ?>;
+	margin:20px;
+}
+.subContentTitle
+{
+	background: <?php print $fimii_redcolor; ?>;
+	color: <?php print $fimii_fore; ?>;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.subContentText
+{
+	border: 2px solid <?php print $fimii_back; ?>;
+	background:<?php print $fimii_back; ?>;
+	margin:10px;
+}
+#copyright
+{
+	font-family:verdana, arial, serif;
+	margin-top:5px;
+	background:<?php print $fimii_back; ?>;
+	font-size:10px;
+	text-align: center;
+}
+.copyrighttop
+{
+	margin:1px;
+	font-family: verdana, arial, serif;
+	color:<?php print $fimii_fore; ?>;
+	padding:2px;
+	font-size:10px;
+	font-weight:bold;
+	text-align: center;
+	background:<?php print $fimii_redcolor; ?>;
+	text-transform:capitalize;
+	letter-spacing:.2em;
+}
+.copyrighttext
+{
+	margin:1px;
+	font-family: verdana, arial, serif;
+	color:<?php print $fimii_fore; ?>;
+	padding:2px;
+	font-size:10px;
+	text-align: center;
+}
